@@ -1,0 +1,1 @@
+import{i as e}from"./index-C56YJ7DN.js";import t from"./TransactionsPage-Dm7ZslPB.js";var n=e();function r(){return(0,n.jsx)(t,{type:`income`})}export{r as default};
