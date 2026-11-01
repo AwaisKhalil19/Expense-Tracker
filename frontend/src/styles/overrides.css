@@ -663,6 +663,17 @@ select {
 }
 
 @media (max-width: 600px) {
+  .profile-settings-heading {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .profile-settings-heading .profile-edit-button {
+    grid-column: 1 / -1;
+    width: 100%;
+    margin-left: 0;
+  }
+
   .welcome-row {
     flex-direction: column;
     align-items: flex-start;
@@ -735,6 +746,7 @@ select {
 
   .profile-actions {
     flex-wrap: wrap;
+    margin-top: 12px;
   }
 
   .auth-layout {
